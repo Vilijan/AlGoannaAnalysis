@@ -37,7 +37,6 @@ def grouped_bar(data: pd.DataFrame):
         bars.append(go.Bar(name=trait_name, x=labels, y=y, marker_color=trait_name_to_color[trait_name]))
 
     fig = go.Figure(data=bars)
-    # TODO: The titles does not work?
     fig.update_layout(
         barmode='stack',
         xaxis_title="Price interval",
@@ -50,7 +49,22 @@ def grouped_bar(data: pd.DataFrame):
 def sales_ui(data: pd.DataFrame):
     key = "sales_ui"
 
-    st.title("Sales analysis")
+    description = """
+        - Create interactive plots using custom filters
+        - Answer some of the following questions:
+            - What are the ales dynamic of the secondary market?
+            - Which are the most common price ranges for an Al Goanna?
+            - What are the price ranges on secondary market per skin color?
+    """
+    st.subheader("Analyze all of the sales from the Al Goanna collection")
+    st.write(description)
+    st.subheader("Filters")
+    filters = """
+    - Filter by market type
+    - Filter by the skin type of the Al Goanna
+    - Filter by price range
+    """
+    st.write(filters)
 
     trait_name_to_color = {arr[0]: arr[1] for arr in data[["trait", "color_trait"]].values}
 
@@ -60,7 +74,7 @@ def sales_ui(data: pd.DataFrame):
     available_market_types = data.market_type.unique()
     selected_market_types = st.sidebar.multiselect("Filter by market type",
                                                    available_market_types,
-                                                   available_market_types,
+                                                   ["Secondary"],
                                                    key=f"{key}_selected_market_types")
 
     filtered_data = data[data.market_type.isin(selected_market_types)].reset_index(drop=True)
@@ -69,7 +83,7 @@ def sales_ui(data: pd.DataFrame):
     available_traits = data.trait.unique()
     selected_traits = st.sidebar.multiselect("Filter by skin traits",
                                              available_traits,
-                                             available_traits,
+                                             ["acid", "mummy", "silver"],
                                              key=f"{key}_selected_traits")
 
     filtered_data = filtered_data[filtered_data.trait.isin(selected_traits)].reset_index(drop=True)
@@ -94,7 +108,7 @@ def sales_ui(data: pd.DataFrame):
                                   (filtered_data.price <= price_interval[1])].reset_index(drop=True)
 
     # Trait colors
-    st.subheader("Skin colors")
+    st.text("Skin colors")
 
     trait_cols = st.columns(len(available_traits))
     for i, trait_name in enumerate(available_traits):
@@ -102,7 +116,6 @@ def sales_ui(data: pd.DataFrame):
         trait_cols[i].image(Image.new(mode="RGB", size=(200, 200), color=trait_color), caption=trait_name)
 
     # Bubble chart
-    st.text("Sales bubble chart")
     fig = go.Figure(data=go.Scatter(
         x=filtered_data.time_ui.values,
         y=filtered_data.price.values,
@@ -112,20 +125,26 @@ def sales_ui(data: pd.DataFrame):
         marker=dict(size=[15] * len(filtered_data),
                     color=filtered_data.color_trait.values)
     ))
-    # TODO: This does not work?
     fig.update_layout(
+        title="Al Goanna sales bubble chart",
+        title_x=0.5,
         xaxis_title="Time",
         yaxis_title="Price in Algos",
     )
     st.plotly_chart(fig)
 
     # Bar chart
-    st.text("Number of sales per price interval")
     fig = grouped_bar(data=filtered_data)
-
+    fig.update_layout(
+        title="Number of sales per price interval",
+        title_x=0.5
+    )
     st.plotly_chart(fig)
 
     # Box plot
-    st.text("Price intervals per trait")
     fig = px.box(filtered_data, x="trait", y="price")
+    fig.update_layout(
+        title="Price interval of Al Goannas per unique trait",
+        title_x=0.5
+    )
     st.plotly_chart(fig)
