@@ -5,9 +5,6 @@ import streamlit as st
 def images_ui(data: pd.DataFrame, default_total: int = 15):
     key = "images_ui"
 
-    min_price = int(data.price.min()) - 50
-    max_price = int(data.price.max()) + 50
-
     # Filters
     st.sidebar.title("Custom filters")
 
@@ -19,14 +16,17 @@ def images_ui(data: pd.DataFrame, default_total: int = 15):
                                              key=f"{key}_selected_traits")
     filtered_data = data[data.trait.isin(selected_traits)].reset_index(drop=True)
     # Price filter
-    price_interval = st.sidebar.slider("Select price range",
-                                       min_price,
-                                       max_price,
-                                       (min_price, max_price),
-                                       step=100,
-                                       key=f"{key}_price_interval")
-    filtered_data = filtered_data[(filtered_data.price >= price_interval[0]) &
-                                  (filtered_data.price <= price_interval[1])].reset_index(drop=True)
+    min_price = st.sidebar.number_input(label="Min price",
+                                        value=max(int(data.price.min()) - 1, 50),
+                                        step=100,
+                                        key=f"{key}_min_price")
+    max_price = st.sidebar.number_input(label="Max price",
+                                        value=int(data.price.max()) + 1,
+                                        step=100,
+                                        key=f"{key}_max_price")
+
+    filtered_data = filtered_data[(filtered_data.price >= min_price) &
+                                  (filtered_data.price <= max_price)].reset_index(drop=True)
     if len(filtered_data) == 0:
         return
 

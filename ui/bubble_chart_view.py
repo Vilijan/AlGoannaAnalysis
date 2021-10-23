@@ -52,7 +52,7 @@ def sales_ui(data: pd.DataFrame):
     description = """
         - Create interactive plots using custom filters
         - Answer some of the following questions:
-            - What are the ales dynamic of the secondary market?
+            - What are the sales dynamic of the secondary market?
             - Which are the most common price ranges for an Al Goanna?
             - What are the price ranges on secondary market per skin color?
     """
@@ -83,7 +83,7 @@ def sales_ui(data: pd.DataFrame):
     available_traits = data.trait.unique()
     selected_traits = st.sidebar.multiselect("Filter by skin traits",
                                              available_traits,
-                                             ["acid", "mummy", "silver"],
+                                             ["acid", "mummy", "silver", "green"],
                                              key=f"{key}_selected_traits")
 
     filtered_data = filtered_data[filtered_data.trait.isin(selected_traits)].reset_index(drop=True)
@@ -92,20 +92,19 @@ def sales_ui(data: pd.DataFrame):
         st.error("Nothing is available with the current filters")
         return
 
-        # Price interval
+    # Price interval
 
-    min_price = int(filtered_data.price.min()) - 50
-    max_price = int(filtered_data.price.max()) + 50
+    min_price = st.sidebar.number_input(label="Min price",
+                                        value=2000,
+                                        step=100,
+                                        key=f"{key}_min_price")
+    max_price = st.sidebar.number_input(label="Max price",
+                                        value=int(data.price.max()) + 1,
+                                        step=100,
+                                        key=f"{key}_max_price")
 
-    price_interval = st.sidebar.slider("Filter by price range",
-                                       min_price,
-                                       max_price,
-                                       (min_price, max_price),
-                                       step=100,
-                                       key=f"{key}_price_interval")
-
-    filtered_data = filtered_data[(filtered_data.price >= price_interval[0]) &
-                                  (filtered_data.price <= price_interval[1])].reset_index(drop=True)
+    filtered_data = filtered_data[(filtered_data.price >= min_price) &
+                                  (filtered_data.price <= max_price)].reset_index(drop=True)
 
     # Trait colors
     st.text("Skin colors")
