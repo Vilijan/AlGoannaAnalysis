@@ -1,14 +1,7 @@
 import pandas as pd
 import streamlit as st
 import plotly.graph_objects as go
-from PIL import Image
 import plotly.express as px
-
-
-def convert_str_color(rgb_color: str):
-    arr = rgb_color.split('(')
-    arr = arr[1].split(')')
-    return tuple([int(i) for i in arr[0].split(',')])
 
 
 def grouped_bar(data: pd.DataFrame):
@@ -46,75 +39,17 @@ def grouped_bar(data: pd.DataFrame):
     return fig
 
 
-def sales_ui(data: pd.DataFrame):
-    key = "sales_ui"
-
-    description = """
-        - Create interactive plots using custom filters
-        - Answer some of the following questions:
-            - What are the sales dynamic of the secondary market?
-            - Which are the most common price ranges for an Al Goanna?
-            - What are the price ranges on secondary market per skin color?
-    """
-    st.subheader("Analyze all of the sales from the Al Goanna collection")
-    st.write(description)
-    st.subheader("Filters")
-    filters = """
-    - Filter by market type
-    - Filter by the skin type of the Al Goanna
-    - Filter by price range
-    """
-    st.write(filters)
-
-    trait_name_to_color = {arr[0]: arr[1] for arr in data[["trait", "color_trait"]].values}
-
-    st.sidebar.title("Custom filters")
-
-    # Market Type Filter
-    available_market_types = data.market_type.unique()
-    selected_market_types = st.sidebar.multiselect("Filter by market type",
-                                                   available_market_types,
-                                                   ["Secondary"],
-                                                   key=f"{key}_selected_market_types")
-
-    filtered_data = data[data.market_type.isin(selected_market_types)].reset_index(drop=True)
-
-    # Trait Filter
-    available_traits = data.trait.unique()
-    selected_traits = st.sidebar.multiselect("Filter by skin traits",
-                                             available_traits,
-                                             ["acid", "mummy", "silver", "green"],
-                                             key=f"{key}_selected_traits")
-
-    filtered_data = filtered_data[filtered_data.trait.isin(selected_traits)].reset_index(drop=True)
-
-    if len(filtered_data) == 0:
-        st.error("Nothing is available with the current filters")
-        return
-
-    # Price interval
-
-    min_price = st.sidebar.number_input(label="Min price",
-                                        value=2000,
-                                        step=100,
-                                        key=f"{key}_min_price")
-    max_price = st.sidebar.number_input(label="Max price",
-                                        value=int(data.price.max()) + 1,
-                                        step=100,
-                                        key=f"{key}_max_price")
-
-    filtered_data = filtered_data[(filtered_data.price >= min_price) &
-                                  (filtered_data.price <= max_price)].reset_index(drop=True)
-
-    # Trait colors
-    st.text("Skin colors")
-
-    trait_cols = st.columns(len(available_traits))
-    for i, trait_name in enumerate(available_traits):
-        trait_color = convert_str_color(trait_name_to_color[trait_name])
-        trait_cols[i].image(Image.new(mode="RGB", size=(200, 200), color=trait_color), caption=trait_name)
-
+def sales_ui(filtered_data: pd.DataFrame):
     # Bubble chart
+    st.subheader("Sales bubble chart")
+    bubble_chart_description = """
+    Explore the sales dynamics:
+    - Each bubble represents a particular sale. You can use the filters on the sidebar to eliminate the sales
+    that you are not interested in.
+    - The X-axis represents time, as we go right we expect the bubbles to shift to the upper right corner.
+    - The Y-axis represents the price in Algos.
+    """
+    st.write(bubble_chart_description)
     fig = go.Figure(data=go.Scatter(
         x=filtered_data.time_ui.values,
         y=filtered_data.price.values,
@@ -133,6 +68,14 @@ def sales_ui(data: pd.DataFrame):
     st.plotly_chart(fig)
 
     # Bar chart
+    st.subheader("Price interval bar chart")
+    bar_chart_description = """
+    Explore the most common price ranges of the different skin colors:
+    - Each bar represents a particular price interval
+    - The height of the bar represents how many Al Goannas have been sold in that interval
+    - The color of the bar represents the skin color of the Al Goanna
+    """
+    st.write(bar_chart_description)
     fig = grouped_bar(data=filtered_data)
     fig.update_layout(
         title="Number of sales per price interval",
@@ -141,6 +84,15 @@ def sales_ui(data: pd.DataFrame):
     st.plotly_chart(fig)
 
     # Box plot
+    st.subheader("Statistical box plots")
+    box_plot_description = """
+    Explore the statistical price ranges of each skin color:
+    - The X-axis represents the skin color of the Al Goanna.
+    - Each boxplot contains statistical information about the price of the sales.
+    - You can see what is the average, minimum, maximum price for each skin color.
+    """
+    st.write(box_plot_description)
+
     fig = px.box(filtered_data, x="trait", y="price")
     fig.update_layout(
         title="Price interval of Al Goannas per unique trait",
