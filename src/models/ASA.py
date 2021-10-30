@@ -2,8 +2,9 @@ from pydantic import BaseModel
 from typing import Optional
 
 
-class NFT(BaseModel):
+class ASA(BaseModel):
     creator: str
-    nft_id: int
+    asa_id: int
     name: str
+    supply: int
     ipfs_image: Optional[str]

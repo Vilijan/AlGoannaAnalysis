@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 
 
-class NFTSale(BaseModel):
+class ASASale(BaseModel):
     seller: str
     buyer: str
     price: float

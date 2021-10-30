@@ -1,5 +1,5 @@
 {
-    "nft_sales": [
+    "asa_sales": [
         {
             "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
             "buyer": "46VDVWCGWQ5ITLEHHF5MMRPTD76VPCJBOH5SK6S5DO7CC5HI3FMLYDHSD4",
@@ -246,6 +246,14 @@
             "price": 397.001,
             "time": 1631383252,
             "asa_id": 328539965,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "SCNDUEDZPTDPU2P3L6OUGYPHFUJIPNXQS7Z2IVFTCZXQOGFUSZ2CDTSAUA",
+            "buyer": "EH6QAYZDMGE5VBIDVOPIMKQ65OPM6FF5QHOHM3RDKB52WLKGWUV6AW3YXA",
+            "price": 2500.0,
+            "time": 1635336425,
+            "asa_id": 328540781,
             "sale_platform": "Rand Gallery"
         },
         {
@@ -693,6 +701,14 @@
             "buyer": "RBABMRE5YPCAWEIRRJCLFDUYJOLC6IORV76BA4KAL2XYJM5B255ORZXZIA",
             "price": 444.001,
             "time": 1632094325,
+            "asa_id": 335166961,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "RBABMRE5YPCAWEIRRJCLFDUYJOLC6IORV76BA4KAL2XYJM5B255ORZXZIA",
+            "buyer": "ADYPJJIQZFQZXIRU7D43U5HIH5GSYUF3VRYA5UJXHWGNMWZR23CRH7CIKY",
+            "price": 1262.5,
+            "time": 1632162054,
             "asa_id": 335166961,
             "sale_platform": "Rand Gallery"
         },
@@ -1273,18 +1289,18 @@
             "sale_platform": "Rand Gallery"
         },
         {
-            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
-            "buyer": "CHAINKX22I7YNLPJVC3HP6RIFAUSPZG7RPSWIJIOPDCT6BLUAGBLCHPQZM",
-            "price": 555.001,
-            "time": 1633182896,
-            "asa_id": 350989295,
-            "sale_platform": "Rand Gallery"
-        },
-        {
             "seller": "CHAINKX22I7YNLPJVC3HP6RIFAUSPZG7RPSWIJIOPDCT6BLUAGBLCHPQZM",
             "buyer": "ADYPJJIQZFQZXIRU7D43U5HIH5GSYUF3VRYA5UJXHWGNMWZR23CRH7CIKY",
             "price": 1250.001,
             "time": 1633199448,
+            "asa_id": 350989295,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "CHAINKX22I7YNLPJVC3HP6RIFAUSPZG7RPSWIJIOPDCT6BLUAGBLCHPQZM",
+            "price": 555.001,
+            "time": 1633182896,
             "asa_id": 350989295,
             "sale_platform": "Rand Gallery"
         },
@@ -1406,6 +1422,14 @@
             "price": 1420.001,
             "time": 1633295377,
             "asa_id": 351048078,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "SCNDUEDZPTDPU2P3L6OUGYPHFUJIPNXQS7Z2IVFTCZXQOGFUSZ2CDTSAUA",
+            "buyer": "MZGXPSEYF3HZFKCJHCFNB7PZB45N2AR4INP4EOUAPIRLGGXCZXRG7KWOGE",
+            "price": 3000.0,
+            "time": 1635568361,
+            "asa_id": 351049039,
             "sale_platform": "Rand Gallery"
         },
         {
@@ -1690,14 +1714,6 @@
         },
         {
             "seller": "GOANXI2VQ4QIVRPCCX3HBMDM3HAAL2W6KTQGZBTT3453MRAHSOGKFVAORQ",
-            "buyer": "GLOW7AKCAZXWQRPI6Q7OCVAO75H45AIYMTDEH3VNPETKYFXMNHAMQOVMS4",
-            "price": 555.001,
-            "time": 1633813348,
-            "asa_id": 357812204,
-            "sale_platform": "Rand Gallery"
-        },
-        {
-            "seller": "GOANXI2VQ4QIVRPCCX3HBMDM3HAAL2W6KTQGZBTT3453MRAHSOGKFVAORQ",
             "buyer": "Y3BIJNAGFGV2KJUHY2VP72CFMPEBNNSG6WFHE2B6EYIQVZQL53TC33MTCM",
             "price": 666.001,
             "time": 1633813313,
@@ -1734,6 +1750,14 @@
             "price": 999.001,
             "time": 1633752221,
             "asa_id": 357820088,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "SCNDUEDZPTDPU2P3L6OUGYPHFUJIPNXQS7Z2IVFTCZXQOGFUSZ2CDTSAUA",
+            "buyer": "EH6QAYZDMGE5VBIDVOPIMKQ65OPM6FF5QHOHM3RDKB52WLKGWUV6AW3YXA",
+            "price": 2450.0,
+            "time": 1635336438,
+            "asa_id": 357820613,
             "sale_platform": "Rand Gallery"
         },
         {
@@ -1945,14 +1969,6 @@
             "sale_platform": "Rand Gallery"
         },
         {
-            "seller": "DUDEJTPYL45G4XFP5SHL5EBTNT65NJSNYHVEI7TEQZ6GYNZ4EQ4MSYAS64",
-            "buyer": "K5L42I46HGHWD6JOYZNDIQQBYKYB6OSUTCKEV4YJXTU7KKFCMDI37NKX34",
-            "price": 420.001,
-            "time": 1634301292,
-            "asa_id": 364045626,
-            "sale_platform": "Rand Gallery"
-        },
-        {
             "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
             "buyer": "JBC5KK5BFJAK7ZRINMLBD6WVQORVWDSUHD2W7H32K4F6CYH4KUVJNLIRBM",
             "price": 690.001,
@@ -2161,6 +2177,14 @@
             "sale_platform": "Rand Gallery"
         },
         {
+            "seller": "SCNDUEDZPTDPU2P3L6OUGYPHFUJIPNXQS7Z2IVFTCZXQOGFUSZ2CDTSAUA",
+            "buyer": "RQ4VF6JSQPSYZZGBEZVL4LU2PZ5NGOMCC5BY5XTNTRQIZGIKG3KCWGBCN4",
+            "price": 2100.0,
+            "time": 1635384907,
+            "asa_id": 370208074,
+            "sale_platform": "Rand Gallery"
+        },
+        {
             "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
             "buyer": "X72HIFURAFI6JME6QJ6B22TBUO5SLVLAWAGWCVETMGF3X4EGIVOFKQ7WZA",
             "price": 690.001,
@@ -2281,6 +2305,14 @@
             "sale_platform": "Rand Gallery"
         },
         {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "LGRZT3N7DNRBFZXM4YD6FEYQQTNOMKBJVVQFZYP76KVD6ZCFP3GY3OGDDY",
+            "price": 690.001,
+            "time": 1635000491,
+            "asa_id": 378148381,
+            "sale_platform": "Rand Gallery"
+        },
+        {
             "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
             "buyer": "6CZWV3M4OVDNNGFEOWCSFRJUQLKL6KR2QJEPYDP66GZC4C6KB7HMSSXAV4",
             "price": 6900.001,
@@ -2289,11 +2321,43 @@
             "sale_platform": "Rand Gallery"
         },
         {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "HZU6MZGPQTYO2JSG6TL55PVSZVTW566UY3PNEVATOWUS5IGGIX63WJWQBI",
+            "price": 1874.001,
+            "time": 1635112427,
+            "asa_id": 378156497,
+            "sale_platform": "Rand Gallery"
+        },
+        {
             "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
             "buyer": "H7POIIKAWIECGMVRJROSTXDGPDTUWOPT5WVSILJFVZUCGZKAHDY744KXXI",
             "price": 690.001,
             "time": 1634950442,
             "asa_id": 378157329,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "Y2BQMKH4ZU5DADCDRYPZ6CNFM2QZLC5TIRHJC34C466HYIKF4OFD4FXQLY",
+            "price": 3938.001,
+            "time": 1635111105,
+            "asa_id": 378157733,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "4Q6ZDCSCRGCFPG7GLSEGM5TZRW5O2CG3AOGGKCQF4ZXUCVVC26NFIB2UCQ",
+            "price": 690.001,
+            "time": 1635007303,
+            "asa_id": 378158613,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "LPK6DZHLUFQCVSMGGBMPW3HWVQSGOWED3VBXOZOTNTLPXHCJJDSM4MFJQ4",
+            "price": 1897.001,
+            "time": 1635112405,
+            "asa_id": 378159296,
             "sale_platform": "Rand Gallery"
         },
         {
@@ -2313,11 +2377,27 @@
             "sale_platform": "Rand Gallery"
         },
         {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "RYAMX6ZCK3PDTLYFQEXXBIH7CIOXEYPSNZIBVWEKDVAU7ROHSYY5FA2GTY",
+            "price": 2256.001,
+            "time": 1635112177,
+            "asa_id": 378161184,
+            "sale_platform": "Rand Gallery"
+        },
+        {
             "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
             "buyer": "HK26QFNCJPYNBC4CDRRCMYW4N7Y373PXYNGY7IRWTOHMXLAI6TLAXBNGXU",
             "price": 690.001,
             "time": 1634966448,
             "asa_id": 378175401,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "MLFVS7JYC5S7TEWUWDY5HHJTCS3EHWV6KZKOM43Q2RSCX6VZH7DEBJXZYQ",
+            "price": 2806.001,
+            "time": 1635111834,
+            "asa_id": 378176036,
             "sale_platform": "Rand Gallery"
         },
         {
@@ -2337,11 +2417,43 @@
             "sale_platform": "Rand Gallery"
         },
         {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "3JN2Z6J7J5FKPFMS5JBPBFQL5F3NOPER5C46FIEMCCQTUOTPX64INB2RWY",
+            "price": 2714.001,
+            "time": 1635111882,
+            "asa_id": 378179429,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "4RKHJ22LLZWEOFIGJ3CJICZADOH6YP5KI5BEIVAOTFWEXQ5HKCJLFEP5XI",
+            "price": 690.001,
+            "time": 1634996099,
+            "asa_id": 378180154,
+            "sale_platform": "Rand Gallery"
+        },
+        {
             "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
             "buyer": "RL5HH6H2W3VYEHZKSU35YHZBL72YLBSLEOBXAPD57CDAZD2PRZYAD7VYN4",
             "price": 690.001,
             "time": 1634942873,
             "asa_id": 378181799,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "LQSOZ532NBPMZ2HNGKWD3ETTMPUYFVFTXBP5CSXAVTELZMG2U7DS5LTKXA",
+            "price": 2200.001,
+            "time": 1635112221,
+            "asa_id": 378182338,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "LQSOZ532NBPMZ2HNGKWD3ETTMPUYFVFTXBP5CSXAVTELZMG2U7DS5LTKXA",
+            "price": 4335.001,
+            "time": 1635110859,
+            "asa_id": 378182828,
             "sale_platform": "Rand Gallery"
         },
         {
@@ -2366,6 +2478,22 @@
             "price": 690.001,
             "time": 1634942471,
             "asa_id": 378186307,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "KCQHW3G3KJHHUMFYFZNTBR2QYQEJKN2PENVJWHQUBC3OWAIEFZ7ID7IGWI",
+            "price": 6900.001,
+            "time": 1635097024,
+            "asa_id": 378186905,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "XRTWNBOQBBIU6SMRD5FWOCNKCKBAOLA7WUOS3RN4KH4J3NBTU35JN723QQ",
+            "price": 2694.001,
+            "time": 1635111900,
+            "asa_id": 378187510,
             "sale_platform": "Rand Gallery"
         },
         {
@@ -2398,6 +2526,110 @@
             "price": 690.001,
             "time": 1634942965,
             "asa_id": 378189742,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "6CZWV3M4OVDNNGFEOWCSFRJUQLKL6KR2QJEPYDP66GZC4C6KB7HMSSXAV4",
+            "price": 6969.001,
+            "time": 1635482282,
+            "asa_id": 386676057,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "TR2KUP3MQLEVU2KL3NOOVBMJUXFVRZWAZK2O7DF6WQGVY7UI3RXZHV4Q7E",
+            "price": 969.001,
+            "time": 1635577753,
+            "asa_id": 386679027,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "VXQOCV45TOA3IM4E72XTR6SXNYFDXOID4VSMHJ73VPYYG3ARUEXEN6SD3A",
+            "price": 969.001,
+            "time": 1635596615,
+            "asa_id": 386681637,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "WVFEHWZOK6Z6GP34CKOCSNSQFS3F6JLOP676FYTK5M4SRGZ3ZVWFCDPES4",
+            "price": 969.001,
+            "time": 1635574753,
+            "asa_id": 386694998,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "KFT6HYOCC5M3VRCSGIKNESDZGYVBZEXML3WCY7G5B4PLEGRFFGZUE2WPFM",
+            "price": 969.001,
+            "time": 1635591804,
+            "asa_id": 386695758,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "OEQPPNS4CLK5RSZUUFJKYUVKZW5WFQRAQGOADRFQKV2YSQSYACNEU646YQ",
+            "price": 969.001,
+            "time": 1635575049,
+            "asa_id": 386697020,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "7JV3WDL5TO6NMNRZTZ7QIAU3EOVMW73RUGQONMJWTSJEC5Z6FDXQ6XJ4VU",
+            "price": 969.001,
+            "time": 1635597832,
+            "asa_id": 386698016,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "SWB5CN46S3KC43OXZL3ZN345UXOKWUFGGR62NKPZSNPG7VNN6E2AUDZEL4",
+            "price": 969.001,
+            "time": 1635583770,
+            "asa_id": 386705461,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "QXCPUXMACEYI7RI4QDTV7RH5R7SMG5SOJLMK6SP4XMMZK6QJYUO3IXDLDU",
+            "price": 969.001,
+            "time": 1635595107,
+            "asa_id": 386708332,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "VKKCC4WQAQRGMMUIJYBCJAXZQFRKOD7DT5UIUDR2CGUEUYZDXM2XGDVB4Y",
+            "price": 969.001,
+            "time": 1635594983,
+            "asa_id": 386754623,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "SCW7Q4LK2RLF54CRNUC3WN5KPOEHYQ2XFKKOW2MGEV4U5Z27SQSAG4BLIQ",
+            "price": 969.001,
+            "time": 1635577074,
+            "asa_id": 386755533,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "Y2BQMKH4ZU5DADCDRYPZ6CNFM2QZLC5TIRHJC34C466HYIKF4OFD4FXQLY",
+            "price": 6969.001,
+            "time": 1635480037,
+            "asa_id": 386756478,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "UCG7BGNLW6SLWFYOWKS7MT4QQZXLTBIZ7WZJUZCANJG4FEYJPZ43IFLFP4",
+            "price": 969.001,
+            "time": 1635582307,
+            "asa_id": 386955578,
             "sale_platform": "Rand Gallery"
         },
         {
@@ -2497,6 +2729,14 @@
             "sale_platform": "AB2 Gallery"
         },
         {
+            "seller": "IGPZQ7JEVJ5N5PXQKC3A4PIGIBXKZ7VC34ZF3QVWQ6EF2AVI5XTS5CYQD4",
+            "buyer": "YORBGEND7GNEMMGMTVNJS7VE2BIS27PLOGVLKBJ36CDS72SI5736XGIJSA",
+            "price": 1822.0,
+            "time": 1635293456,
+            "asa_id": 328542664,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
             "seller": "FLQI2GF4YNZOGMZ3OD4K26D2WM2ETIKY2CIA22R3RJHJR4ON64ND77A7OQ",
             "buyer": "IGPZQ7JEVJ5N5PXQKC3A4PIGIBXKZ7VC34ZF3QVWQ6EF2AVI5XTS5CYQD4",
             "price": 800.0,
@@ -2566,6 +2806,22 @@
             "price": 2500.0,
             "time": 1632830502,
             "asa_id": 328565014,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "ZWNCUWH5Z3WM6Q7WCYYRXP2R2XIIX74JQDQGO2EVPNUPMYACAB43VLKOIE",
+            "buyer": "X56BUMTPEJZCWQU436FHQYW4BBDB4EKLUQ5JJFZ254JDL2VQJW62S64AM4",
+            "price": 2700.0,
+            "time": 1635533131,
+            "asa_id": 330597170,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "33FI3VQYXJCAGPQIZ4H6Z3M7ZDOXEPOH5J5HPK45IHGS4JFU4DTCSO2EVE",
+            "buyer": "7KGO4DF5MVDZZ5BXMCWUBHJGYPFQZT3ZKISJ7IOVNUBUTRPU5YXE66M6FE",
+            "price": 2500.0,
+            "time": 1635090704,
+            "asa_id": 330598680,
             "sale_platform": "AB2 Gallery"
         },
         {
@@ -2729,6 +2985,14 @@
             "sale_platform": "AB2 Gallery"
         },
         {
+            "seller": "KIFFKAAQ37PJ4Y2A47U37N5ZJFEHAGVREDJGISDKWCOFLRIMAAWXOFICUM",
+            "buyer": "YUEWUHMYYJEAFWOCACKG4TTUFKKCIOBTQNDMRWU6SJT6GZSBXAMAAOHBFQ",
+            "price": 1900.0,
+            "time": 1635296091,
+            "asa_id": 342583034,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
             "seller": "NVIE7CJPDAZT2JSKGVE6M3O3CSL3H6RBMKBWFNV7W2P3LEEDVC4M6VFBE4",
             "buyer": "M4GXWNYKCJAK73EU6H5CN2P6YX3WRIELSUHSS7L2TOQQENA4XOWFVHALXQ",
             "price": 1790.0,
@@ -2793,6 +3057,22 @@
             "sale_platform": "AB2 Gallery"
         },
         {
+            "seller": "2K57HUAYCF2NYKJBL75M7ZKMQZRJF2GUI5SUIXIZACJDQTW5X4WBS3JWBA",
+            "buyer": "QI2SFEIH3H3CT2NSUMYKDWTKYTKDTM3AQ574V3UE2NYDW2PDSBT4WNGVAA",
+            "price": 2420.0,
+            "time": 1635113861,
+            "asa_id": 351048078,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "WVVGO6VAADQEIGYV6WHOOYJF7S33ETIONYUKOWVK3JDND3W4LD7I53GQSU",
+            "buyer": "RLUF2TOT647KDDXR3DVP2HLK6PYKANSUWMGMMSMOILNNOIYG7CBNKIHFHA",
+            "price": 3000.0,
+            "time": 1635497010,
+            "asa_id": 351058084,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
             "seller": "2CY22XRK42KQU6WUHN5JEWV7Q7OQIYD2WEPESEK4P3T37XUAW6N3PLOQHM",
             "buyer": "M4GXWNYKCJAK73EU6H5CN2P6YX3WRIELSUHSS7L2TOQQENA4XOWFVHALXQ",
             "price": 1369.0,
@@ -2841,18 +3121,18 @@
             "sale_platform": "AB2 Gallery"
         },
         {
-            "seller": "XMQM2QQGRJDQOIXGKKLSJZI6F7DEBAFUDIW64AOG27I3CUAOV7CGWWL44E",
-            "buyer": "3JN2Z6J7J5FKPFMS5JBPBFQL5F3NOPER5C46FIEMCCQTUOTPX64INB2RWY",
-            "price": 1149.0,
-            "time": 1633328793,
-            "asa_id": 351165507,
-            "sale_platform": "AB2 Gallery"
-        },
-        {
             "seller": "3JN2Z6J7J5FKPFMS5JBPBFQL5F3NOPER5C46FIEMCCQTUOTPX64INB2RWY",
             "buyer": "FUWJ24IYMTN66XIGQDUDNIPKUKMWCO723S7YDLOESIPEF6NP7DJA2GDYFA",
             "price": 1500.0,
             "time": 1634121689,
+            "asa_id": 351165507,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "XMQM2QQGRJDQOIXGKKLSJZI6F7DEBAFUDIW64AOG27I3CUAOV7CGWWL44E",
+            "buyer": "3JN2Z6J7J5FKPFMS5JBPBFQL5F3NOPER5C46FIEMCCQTUOTPX64INB2RWY",
+            "price": 1149.0,
+            "time": 1633328793,
             "asa_id": 351165507,
             "sale_platform": "AB2 Gallery"
         },
@@ -2889,18 +3169,18 @@
             "sale_platform": "AB2 Gallery"
         },
         {
-            "seller": "BULB5YQHHXSUW5RDV247OR3HYSEE2M5JWVNGYW3XZM6XKCCNWZPRIN63HU",
-            "buyer": "6MW42X37C7ADSNTWNY5D6ZJCYYJ6EIQ4CFLY5RMMPHQAG74VHYNUM3YITQ",
-            "price": 999.0,
-            "time": 1633841667,
-            "asa_id": 357813060,
-            "sale_platform": "AB2 Gallery"
-        },
-        {
             "seller": "QI2SFEIH3H3CT2NSUMYKDWTKYTKDTM3AQ574V3UE2NYDW2PDSBT4WNGVAA",
             "buyer": "QUHUZPBX5TF3FRFMWPRZCY7Q5C7T4J3RGWH47BSBDYLN5W77MGTMZHHC3A",
             "price": 1600.0,
             "time": 1634178244,
+            "asa_id": 357813060,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "BULB5YQHHXSUW5RDV247OR3HYSEE2M5JWVNGYW3XZM6XKCCNWZPRIN63HU",
+            "buyer": "6MW42X37C7ADSNTWNY5D6ZJCYYJ6EIQ4CFLY5RMMPHQAG74VHYNUM3YITQ",
+            "price": 999.0,
+            "time": 1633841667,
             "asa_id": 357813060,
             "sale_platform": "AB2 Gallery"
         },
@@ -2921,11 +3201,11 @@
             "sale_platform": "AB2 Gallery"
         },
         {
-            "seller": "XJUNGZB33ZOBPWR2YUWMYH5X6VQXRTWWX6ROT5Q7KUD3PPN7K7JTWFZFYE",
-            "buyer": "27MWPIUXVPP6ZPPGN6D3C7HCLRU4I4F2VJNKKPOJ5ES7LOHKKZ6SPWF4M4",
-            "price": 888.0,
-            "time": 1634042008,
-            "asa_id": 364041108,
+            "seller": "L3JPONZLTYPMDRM6F7I2W2OF7FTCOVJLJVAPJ3BQWXOXNO56I25FR5CUHA",
+            "buyer": "6CZWV3M4OVDNNGFEOWCSFRJUQLKL6KR2QJEPYDP66GZC4C6KB7HMSSXAV4",
+            "price": 2000.0,
+            "time": 1635525772,
+            "asa_id": 370139978,
             "sale_platform": "AB2 Gallery"
         },
         {
@@ -2937,11 +3217,43 @@
             "sale_platform": "AB2 Gallery"
         },
         {
+            "seller": "DINOOWIH5ZBUFZQQIQ2FCJT5Z5CZV3WIZZ5XSCGXIWE4RZRMHZRVVZZZCU",
+            "buyer": "EH6QAYZDMGE5VBIDVOPIMKQ65OPM6FF5QHOHM3RDKB52WLKGWUV6AW3YXA",
+            "price": 1795.0,
+            "time": 1635336174,
+            "asa_id": 370141772,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "4Q6ZDCSCRGCFPG7GLSEGM5TZRW5O2CG3AOGGKCQF4ZXUCVVC26NFIB2UCQ",
+            "buyer": "G67YQCRVFAEM2MIAFIR2QZ2LMEJU5L2MD3FYBTT23GOQ2L4FMN4J46NFKE",
+            "price": 1950.0,
+            "time": 1635451017,
+            "asa_id": 370179699,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
             "seller": "NGFO5U3MKOA5GOLXTGUHF6XWLYP7543PKHAZDCLQJBNFJ4S6WBFPA4MIHM",
             "buyer": "KNURDUNQR5XEKTUGCHKPOFDJ76METNMWIUVWQPMTHYM66EPUBJTDKS463A",
             "price": 1600.0,
             "time": 1634523156,
             "asa_id": 370193543,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "LDKWR7FCAWOMGW5ZBI4Y3UDOQSHHCNHL4QORTJCQJIUKFGGG5HP6TKH3SQ",
+            "buyer": "QQLXRHAZIUGVMWZVRJ22I4TESYOGM3DRTKYD2WEF5M6ZWG7LCR6KJO6HH4",
+            "price": 1790.0,
+            "time": 1635028175,
+            "asa_id": 370201662,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "46VDVWCGWQ5ITLEHHF5MMRPTD76VPCJBOH5SK6S5DO7CC5HI3FMLYDHSD4",
+            "buyer": "IGPZQ7JEVJ5N5PXQKC3A4PIGIBXKZ7VC34ZF3QVWQ6EF2AVI5XTS5CYQD4",
+            "price": 1969.0,
+            "time": 1635359752,
+            "asa_id": 370203657,
             "sale_platform": "AB2 Gallery"
         },
         {
@@ -2953,11 +3265,59 @@
             "sale_platform": "AB2 Gallery"
         },
         {
+            "seller": "TAQPPYD4XTWDLVHZBE5YPPWS7TGU6QIRWPL7N7FHENJVIKXZNLMDJ7KSR4",
+            "buyer": "EH6QAYZDMGE5VBIDVOPIMKQ65OPM6FF5QHOHM3RDKB52WLKGWUV6AW3YXA",
+            "price": 2420.69,
+            "time": 1635336337,
+            "asa_id": 370207486,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "BDMOQVMGIK4ECQTSBNXPG3RU5DPN2AXPWWOESE6YIYW6BNAW4XVBDEP3T4",
+            "buyer": "NMLTK55ZB2ZYJ3ZX5USHQTDKKMPKQXYG34LKYFFK2WDSVW7VNYZTA7DQ4Y",
+            "price": 1599.0,
+            "time": 1635006443,
+            "asa_id": 370211487,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "Y3BIJNAGFGV2KJUHY2VP72CFMPEBNNSG6WFHE2B6EYIQVZQL53TC33MTCM",
+            "buyer": "EH6QAYZDMGE5VBIDVOPIMKQ65OPM6FF5QHOHM3RDKB52WLKGWUV6AW3YXA",
+            "price": 2069.0,
+            "time": 1635336288,
+            "asa_id": 370214171,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
             "seller": "PSLFKS2X3GIEXADVUASY6KBI6FWXGM7RTR56UMHLQABGGM3LQQW3GYV2YA",
             "buyer": "C7MHHEKEBP6GGYTRW5SDCVS4BIXXIELXCXEWF567T5MOUGBTAADEJC2ZNM",
             "price": 1750.0,
             "time": 1634604150,
             "asa_id": 370222171,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "4Q6ZDCSCRGCFPG7GLSEGM5TZRW5O2CG3AOGGKCQF4ZXUCVVC26NFIB2UCQ",
+            "buyer": "X7UBMVPMD2FK6T3AOJONS2D6BPE5VDTLPUAMIEA6VMBAYSAPFJ4WVGUTCQ",
+            "price": 1800.0,
+            "time": 1635294638,
+            "asa_id": 378158613,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "PHDUN666M3QHX3MYLLL2EPUMHFEVS6DGYNS23Y5DVQ2Z37AMQ6TRU6KCN4",
+            "buyer": "EH6QAYZDMGE5VBIDVOPIMKQ65OPM6FF5QHOHM3RDKB52WLKGWUV6AW3YXA",
+            "price": 2000.0,
+            "time": 1635336235,
+            "asa_id": 378160339,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "J6ZENH3IIUO7NUZXCXUXEW3YHSCO4NXDQDSIDGJKYQYSQ3UFOWAAZ2T3XY",
+            "buyer": "R3NASRXAF4MX56ULXZ476ZWYY7LDSL2YFPVSPEAM6FFYVM6V3U6QBAEJAQ",
+            "price": 1999.0,
+            "time": 1635361634,
+            "asa_id": 378185763,
             "sale_platform": "AB2 Gallery"
         },
         {
@@ -2993,6 +3353,14 @@
             "sale_platform": "Atomic Swap"
         },
         {
+            "seller": "3JN2Z6J7J5FKPFMS5JBPBFQL5F3NOPER5C46FIEMCCQTUOTPX64INB2RWY",
+            "buyer": "6MW42X37C7ADSNTWNY5D6ZJCYYJ6EIQ4CFLY5RMMPHQAG74VHYNUM3YITQ",
+            "price": 2050.0,
+            "time": 1635309496,
+            "asa_id": 351121162,
+            "sale_platform": "Atomic Swap"
+        },
+        {
             "seller": "D5J7H7PIYKLY2U6A5OFUAC7GQHTHSXXNX65DSD3CJYPBV2MVK6NTNW44CA",
             "buyer": "6CZWV3M4OVDNNGFEOWCSFRJUQLKL6KR2QJEPYDP66GZC4C6KB7HMSSXAV4",
             "price": 10100.0,
@@ -3001,19 +3369,19 @@
             "sale_platform": "Atomic Swap"
         },
         {
-            "seller": "SCNDUEDZPTDPU2P3L6OUGYPHFUJIPNXQS7Z2IVFTCZXQOGFUSZ2CDTSAUA",
-            "buyer": "23MEELMGJAMLA5O4K5VN2GTNFWBDHO4PQQVVFWKQ7PHDEKIR4N3A74H3J4",
-            "price": 0.101,
-            "time": 1634923435,
-            "asa_id": 357820613,
-            "sale_platform": "Atomic Swap"
-        },
-        {
             "seller": "KTVJRRJTJIC4IASL5QHDAVDHVFAFKCJBSABFLTJ6VB66HRDU2EXS4TAAMM",
             "buyer": "T6GFGXLDKHLQ4EMUZBIINROY5AUE46JYWRZ3W37ZOKNRAJZEP5QJFJKNXI",
             "price": 1100.0,
             "time": 1633839808,
             "asa_id": 357821399,
+            "sale_platform": "Atomic Swap"
+        },
+        {
+            "seller": "HP3A4ZKEWWUP2BWONKUTCTM62A7KZCJGQAX6I4BTZBSHQLPTBW6I7JM6RE",
+            "buyer": "6CZWV3M4OVDNNGFEOWCSFRJUQLKL6KR2QJEPYDP66GZC4C6KB7HMSSXAV4",
+            "price": 6000.0,
+            "time": 1635552442,
+            "asa_id": 357857972,
             "sale_platform": "Atomic Swap"
         },
         {
@@ -3038,6 +3406,30 @@
             "price": 690.0,
             "time": 1634626935,
             "asa_id": 370208074,
+            "sale_platform": "Atomic Swap"
+        },
+        {
+            "seller": "D5J7H7PIYKLY2U6A5OFUAC7GQHTHSXXNX65DSD3CJYPBV2MVK6NTNW44CA",
+            "buyer": "TT7BIN5ZUH3I3ANAR3ZGUSVSZAG5PVE6TMJVNZEWYARV2JDTF7BPYT7AUQ",
+            "price": 690.0,
+            "time": 1635039201,
+            "asa_id": 378147789,
+            "sale_platform": "Atomic Swap"
+        },
+        {
+            "seller": "D5J7H7PIYKLY2U6A5OFUAC7GQHTHSXXNX65DSD3CJYPBV2MVK6NTNW44CA",
+            "buyer": "A3FRMIPC3RTWR3BDDL46ZA6SGLYXHMZCDUDLKF6MIMV2CD3P2DKWNTTTSI",
+            "price": 690.0,
+            "time": 1635040772,
+            "asa_id": 378154517,
+            "sale_platform": "Atomic Swap"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "UBITI5DSTBGCPBZA5B2GSX4YXPGNGY74JJT5SZXHIEEZKW6RH3X5PF62C4",
+            "price": 690.0,
+            "time": 1635046896,
+            "asa_id": 378162620,
             "sale_platform": "Atomic Swap"
         }
     ]
