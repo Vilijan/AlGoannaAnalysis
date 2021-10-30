@@ -4,7 +4,6 @@ import streamlit as st
 import json
 from datetime import datetime
 from PIL import Image
-from pymongo import MongoClient
 import plotly.graph_objects as go
 
 from ui.highest_sales_images_view import combined_images_ui
