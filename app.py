@@ -107,6 +107,9 @@ def custom_filters():
                                                    available_market_types,
                                                    ["Secondary"])
 
+    if len(selected_market_types) == 0:
+        selected_market_types = available_market_types
+
     filtered_data = data[data.market_type.isin(selected_market_types)].reset_index(drop=True)
 
     # Trait Filter
@@ -114,6 +117,9 @@ def custom_filters():
     selected_traits = st.sidebar.multiselect("Filter by skin traits",
                                              available_traits,
                                              available_traits)
+
+    if len(selected_traits) == 0:
+        selected_traits = available_traits
 
     filtered_data = filtered_data[filtered_data.trait.isin(selected_traits)].reset_index(drop=True)
 
