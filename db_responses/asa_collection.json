@@ -2526,6 +2526,13 @@
             "name": "Al Goanna 355",
             "supply": 1,
             "ipfs_image": "https://ipfs.io/ipfs/QmRUdWF83p4kgrLUerkENMemkwuyXJr2WFATDfKe45jFy2"
+        },
+        {
+            "creator": "D5J7H7PIYKLY2U6A5OFUAC7GQHTHSXXNX65DSD3CJYPBV2MVK6NTNW44CA",
+            "asa_id": 390940467,
+            "name": "Goanna Stories 001",
+            "supply": 1,
+            "ipfs_image": "https://ipfs.io/ipfs/QmRkQnP3avqM38ER5SL1Rso7AUFfWemWPp1iHigYtQuR1t"
         }
     ]
 }

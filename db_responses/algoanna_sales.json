@@ -873,6 +873,14 @@
             "sale_platform": "Rand Gallery"
         },
         {
+            "seller": "SCNDUEDZPTDPU2P3L6OUGYPHFUJIPNXQS7Z2IVFTCZXQOGFUSZ2CDTSAUA",
+            "buyer": "RA2CCQK6HOWG4ZX4W53KRZBPIDTWU7BENBY2UFOMJ6CJJLM4OX4AA7TZJM",
+            "price": 3000.0,
+            "time": 1635669728,
+            "asa_id": 342579388,
+            "sale_platform": "Rand Gallery"
+        },
+        {
             "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
             "buyer": "KJOJCC3E5RPJO4MZXNL3TP4SGS2JBURHZTU46MJFYSUZAUDHHQRJWFVC2Q",
             "price": 475.001,
@@ -1517,6 +1525,14 @@
             "buyer": "DMNDH2RIL5C7VLW6DM2ZY7QVUSOLYOUFWASRAJMA2WQKJRCBA4ZX2MQLT4",
             "price": 555.001,
             "time": 1633155022,
+            "asa_id": 351121689,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "SCNDUEDZPTDPU2P3L6OUGYPHFUJIPNXQS7Z2IVFTCZXQOGFUSZ2CDTSAUA",
+            "buyer": "HK26QFNCJPYNBC4CDRRCMYW4N7Y373PXYNGY7IRWTOHMXLAI6TLAXBNGXU",
+            "price": 2222.0,
+            "time": 1635704337,
             "asa_id": 351121689,
             "sale_platform": "Rand Gallery"
         },
@@ -2537,6 +2553,30 @@
             "sale_platform": "Rand Gallery"
         },
         {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "ZI7JQM4MESHTDXGBX53VGBC37OF47B2GKUMSZESTLDVU2W4BZZLQ6YFD5U",
+            "price": 2647.001,
+            "time": 1635716743,
+            "asa_id": 386676630,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "MZGXPSEYF3HZFKCJHCFNB7PZB45N2AR4INP4EOUAPIRLGGXCZXRG7KWOGE",
+            "price": 4123.001,
+            "time": 1635715805,
+            "asa_id": 386678024,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "6CZWV3M4OVDNNGFEOWCSFRJUQLKL6KR2QJEPYDP66GZC4C6KB7HMSSXAV4",
+            "price": 3440.001,
+            "time": 1635716243,
+            "asa_id": 386678534,
+            "sale_platform": "Rand Gallery"
+        },
+        {
             "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
             "buyer": "TR2KUP3MQLEVU2KL3NOOVBMJUXFVRZWAZK2O7DF6WQGVY7UI3RXZHV4Q7E",
             "price": 969.001,
@@ -2545,11 +2585,35 @@
             "sale_platform": "Rand Gallery"
         },
         {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "TT7BIN5ZUH3I3ANAR3ZGUSVSZAG5PVE6TMJVNZEWYARV2JDTF7BPYT7AUQ",
+            "price": 2836.001,
+            "time": 1635716629,
+            "asa_id": 386679558,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "HP3A4ZKEWWUP2BWONKUTCTM62A7KZCJGQAX6I4BTZBSHQLPTBW6I7JM6RE",
+            "price": 4499.001,
+            "time": 1635715574,
+            "asa_id": 386680355,
+            "sale_platform": "Rand Gallery"
+        },
+        {
             "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
             "buyer": "VXQOCV45TOA3IM4E72XTR6SXNYFDXOID4VSMHJ73VPYYG3ARUEXEN6SD3A",
             "price": 969.001,
             "time": 1635596615,
             "asa_id": 386681637,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "H2AV2KJPBY6BHGVUZJAESWBPB2DTDQ5MLNZQL4REIRVRAEJ64P5HUDVPPU",
+            "price": 969.001,
+            "time": 1635606402,
+            "asa_id": 386682222,
             "sale_platform": "Rand Gallery"
         },
         {
@@ -2586,10 +2650,50 @@
         },
         {
             "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "UNBBDOD6CVXNIAWCT4TWKRNOWVRXNWNVOBAEHJBSGRFLFDNMN6RYODBBPU",
+            "price": 969.001,
+            "time": 1635625427,
+            "asa_id": 386698707,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "DAHTHIDXIY5WFL24KV4OU7SXLECISJIRRCMWB2UBEFQHZZZCERM4KRHUXM",
+            "price": 969.001,
+            "time": 1635606574,
+            "asa_id": 386703284,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "ZVYMNAJBNKO7BPSFJPQQLXAB7XMX7GHJ4HQDFI2AT32XI3QRQHFKDKAODA",
+            "price": 969.001,
+            "time": 1635625401,
+            "asa_id": 386704623,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
             "buyer": "SWB5CN46S3KC43OXZL3ZN345UXOKWUFGGR62NKPZSNPG7VNN6E2AUDZEL4",
             "price": 969.001,
             "time": 1635583770,
             "asa_id": 386705461,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "7KGO4DF5MVDZZ5BXMCWUBHJGYPFQZT3ZKISJ7IOVNUBUTRPU5YXE66M6FE",
+            "price": 4601.001,
+            "time": 1635715504,
+            "asa_id": 386706145,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "JYHPKAWXI74LRY3C47J36HEWZLCGQDR43U3EUMMPWQPN5QKPYZO4LNLYUQ",
+            "price": 2606.001,
+            "time": 1635716773,
+            "asa_id": 386707457,
             "sale_platform": "Rand Gallery"
         },
         {
@@ -2625,11 +2729,83 @@
             "sale_platform": "Rand Gallery"
         },
         {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "RA2CCQK6HOWG4ZX4W53KRZBPIDTWU7BENBY2UFOMJ6CJJLM4OX4AA7TZJM",
+            "price": 2714.001,
+            "time": 1635716699,
+            "asa_id": 386941384,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "6CZWV3M4OVDNNGFEOWCSFRJUQLKL6KR2QJEPYDP66GZC4C6KB7HMSSXAV4",
+            "price": 3150.001,
+            "time": 1635716423,
+            "asa_id": 386941848,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "IIYRGK3GI3JZYGCCV2QQLOTYFSZL7M4UQTDB2Y22IX2TP4K7W4ZLXFBLVY",
+            "price": 2592.001,
+            "time": 1635716809,
+            "asa_id": 386942367,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "ORVKAW7W6RSLFSBAFFMC7H4JNPXJ3QA2VDQ575JAYCZSDEZRZ6AWJ2WAFU",
+            "price": 2990.001,
+            "time": 1635716528,
+            "asa_id": 386942977,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
+            "buyer": "SQFVQ24LR7ORL3T2NN4EEYZAVFL4YY45MB3PHDHAT2VD5Q2REUH3ODLCWI",
+            "price": 969.001,
+            "time": 1635602787,
+            "asa_id": 386954015,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "RA2CCQK6HOWG4ZX4W53KRZBPIDTWU7BENBY2UFOMJ6CJJLM4OX4AA7TZJM",
+            "price": 9696.001,
+            "time": 1635667247,
+            "asa_id": 386954778,
+            "sale_platform": "Rand Gallery"
+        },
+        {
             "seller": "GOANY5SVY4LT3LHLAHWAGZHZASLZA5RUCXLXN442XWNSBV2QQIDIL5ACW4",
             "buyer": "UCG7BGNLW6SLWFYOWKS7MT4QQZXLTBIZ7WZJUZCANJG4FEYJPZ43IFLFP4",
             "price": 969.001,
             "time": 1635582307,
             "asa_id": 386955578,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "Z5ZBN46LN6S6ZE5X74FKZDDTOJN6LUSTU3NMT34UAGPGG5FLF6HLFFV6QI",
+            "price": 3626.001,
+            "time": 1635716125,
+            "asa_id": 386956116,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "J53FGXAFZKRXOUJ4XXUBEO3BCHH4VCW2RQ5TWW6BJD2LS3A332QHD5J24Q",
+            "price": 4642.001,
+            "time": 1635715487,
+            "asa_id": 387779639,
+            "sale_platform": "Rand Gallery"
+        },
+        {
+            "seller": "GOANBOYU3XDCVQVDVX6BKB6SXN4UKTTQNWF6BAKNJAFEZCOHI5PMLLSUZ4",
+            "buyer": "6CZWV3M4OVDNNGFEOWCSFRJUQLKL6KR2QJEPYDP66GZC4C6KB7HMSSXAV4",
+            "price": 2345.001,
+            "time": 1635716932,
+            "asa_id": 387780523,
             "sale_platform": "Rand Gallery"
         },
         {
@@ -3319,6 +3495,22 @@
             "time": 1635361634,
             "asa_id": 378185763,
             "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "UNBBDOD6CVXNIAWCT4TWKRNOWVRXNWNVOBAEHJBSGRFLFDNMN6RYODBBPU",
+            "buyer": "P6J2VWA74BDEMKQR3TBX33TPDPT7NIRG2RZE3VBIWFMPYVXKCNBHCJIDZ4",
+            "price": 2696.0,
+            "time": 1635719981,
+            "asa_id": 386698707,
+            "sale_platform": "AB2 Gallery"
+        },
+        {
+            "seller": "7KGO4DF5MVDZZ5BXMCWUBHJGYPFQZT3ZKISJ7IOVNUBUTRPU5YXE66M6FE",
+            "buyer": "SZZUDWJXTJT4CUBB2CWDWGTTY2L3UQEIVIPYSRTLMJYXJC6PGWM4RBKNIM",
+            "price": 5000.0,
+            "time": 1635741616,
+            "asa_id": 328539074,
+            "sale_platform": "Atomic Swap"
         },
         {
             "seller": "M4GXWNYKCJAK73EU6H5CN2P6YX3WRIELSUHSS7L2TOQQENA4XOWFVHALXQ",
