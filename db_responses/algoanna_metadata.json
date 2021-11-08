@@ -6,15 +6,15 @@
         "D5J7H7PIYKLY2U6A5OFUAC7GQHTHSXXNX65DSD3CJYPBV2MVK6NTNW44CA"
     ],
     "traits": [
-        "mummy",
-        "private",
-        "purple",
-        "acid",
-        "algonaught",
+        "joker",
         "silver",
+        "mummy",
         "green",
         "gold",
-        "joker"
+        "acid",
+        "private",
+        "purple",
+        "algonaught"
     ],
     "traits_color_map": {
         "gold": "rgb(218,165,32)",
