@@ -153,6 +153,9 @@ def custom_filters():
     trait_cols_row2 = st.sidebar.columns(4)
     color_size = (50, 50)
     for i, trait_name in enumerate(available_traits):
+        if trait_name == "private":
+            continue
+
         trait_color = convert_str_color(trait_name_to_color[trait_name])
         if i > 3:
             trait_cols_row2[i - 4].image(Image.new(mode="RGB", size=color_size, color=trait_color), caption=trait_name,
