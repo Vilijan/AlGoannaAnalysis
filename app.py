@@ -30,7 +30,7 @@ def prepare_data():
     metadata = load_json(f'db_responses/algoanna_metadata.json')
     sales_response = load_json(f'db_responses/algoanna_sales.json')
     asas_response = load_json(f'db_responses/asa_collection.json')
-    asa_owners_response = load_json(f"db_responses//collection_owners.json")
+    asa_owners_response = load_json(f"db_responses/collection_owners.json")
 
     asas = [ASA(**asa) for asa in asas_response['asa_list']]
     asa_owners = [ASAOwner(**owner) for owner in asa_owners_response["asa_owners"]]
@@ -47,7 +47,7 @@ def prepare_data():
     for sample_sale in asa_sales:
         current_asa = asa_id_to_asa[sample_sale.asa_id]
 
-        if "Al Goanna" not in current_asa.name:
+        if "Al Goanna" not in current_asa.name and "AL Goanna" not in current_asa.name:
             continue
 
         curr_nft_number = int(current_asa.name.split(" ")[2])
@@ -65,7 +65,13 @@ def prepare_data():
         curr_arr.append(datetime.utcfromtimestamp(sample_sale.time).strftime('%Y-%m-%d'))
         curr_arr.append(current_asa.name)
         curr_arr.append(curr_nft_number)
-        curr_arr.append(current_asa.ipfs_image)
+
+        new_ipfs_image = current_asa.ipfs_image
+        if "https" not in new_ipfs_image:
+            ipfs_hash = new_ipfs_image.split("//")[1]
+            new_ipfs_image = f"https://ipfs.io/ipfs/{ipfs_hash}"
+        curr_arr.append(new_ipfs_image)
+
         curr_arr.append(trait_type)
         curr_arr.append(metadata['traits_color_map'][trait_type])
 
@@ -186,6 +192,53 @@ def overall_stats():
     stats_cols[3].info(f"{int(secondary_market.price.max())}")
 
 
+def private_algoannas(number_of_samples: int = 20,
+                      images_per_column: int = 5):
+    asas_response = load_json(f'db_responses/asa_collection.json')
+    metadata = load_json(f'db_responses/algoanna_metadata.json')
+
+    asas = [ASA(**asa) for asa in asas_response['asa_list']]
+    private_asas = []
+    for asa in asas:
+        if "AL Goanna" not in asa.name and "Al Goanna" not in asa.name:
+            continue
+
+        curr_nft_number = int(asa.name.split(" ")[2])
+        curr_nft_number = str(curr_nft_number)
+
+        if metadata["traits_map"][curr_nft_number] == "private":
+            private_asas.append(asa)
+
+    st.subheader("Private sales")
+    descrption = """
+    - Those sales are private investments in the Al Goanna collection and do not contain public information
+    about the prices.
+    """
+    st.write(descrption)
+
+    highest_sales_interval = st.slider("Pick the highest sales interval",
+                                       0,
+                                       len(private_asas),
+                                       (0, number_of_samples),
+                                       step=images_per_column)
+
+    curr_idx = highest_sales_interval[0]
+
+    while (curr_idx < highest_sales_interval[1]) and (curr_idx < len(private_asas)):
+        cols = st.columns(images_per_column)
+        for j in range(images_per_column):
+            if (curr_idx > highest_sales_interval[1]) or (curr_idx >= len(private_asas)):
+                break
+
+            image_url = private_asas[curr_idx].ipfs_image
+            if "https" not in image_url:
+                ipfs_hash = image_url.split("//")[1]
+                image_url = f"https://ipfs.io/ipfs/{ipfs_hash}"
+
+            cols[j].image(image=image_url, caption=f"{private_asas[curr_idx].name}", use_column_width=True)
+            curr_idx += 1
+
+
 def owners_ui():
     st.subheader("Owners stats")
     owners_description = """
@@ -252,5 +305,6 @@ curr_data = st.session_state.filtered_data
 if len(curr_data) > 0:
     overall_stats()
     combined_images_ui(data=curr_data)
+    private_algoannas()
     sales_ui(filtered_data=curr_data)
     owners_ui()
