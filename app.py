@@ -219,7 +219,7 @@ def private_algoannas(number_of_samples: int = 20,
     """
     st.write(descrption)
 
-    highest_sales_interval = st.slider("Pick the highest sales interval",
+    highest_sales_interval = st.slider("Choose the private sales interval",
                                        0,
                                        len(private_asas),
                                        (0, number_of_samples),
@@ -289,7 +289,13 @@ def owners_ui():
         for j in range(3):
             if idx >= len(curr_whale_df):
                 break
-            cols[j].image(curr_whale_df.image.values[idx])
+
+            image_url = curr_whale_df.image.values[idx]
+            if "https" not in image_url:
+                ipfs_hash = image_url.split("//")[1]
+                image_url = f"https://ipfs.io/ipfs/{ipfs_hash}"
+
+            cols[j].image(image_url)
             idx += 1
 
 
