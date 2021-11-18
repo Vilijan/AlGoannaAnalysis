@@ -53,7 +53,7 @@ def sales_ui(filtered_data: pd.DataFrame):
     fig = go.Figure(data=go.Scatter(
         x=filtered_data.time_ui.values,
         y=filtered_data.price.values,
-        mode='markers+text',
+        mode='markers',
         text=filtered_data.name.values,
         textposition="bottom center",
         marker=dict(size=[15] * len(filtered_data),
@@ -65,7 +65,7 @@ def sales_ui(filtered_data: pd.DataFrame):
         xaxis_title="Time",
         yaxis_title="Price in Algos",
     )
-    st.plotly_chart(fig)
+    st.plotly_chart(fig, use_container_width=True)
 
     # Bar chart
     st.subheader("Price interval bar chart")
@@ -81,7 +81,7 @@ def sales_ui(filtered_data: pd.DataFrame):
         title="Number of sales per price interval",
         title_x=0.5
     )
-    st.plotly_chart(fig)
+    st.plotly_chart(fig, use_container_width=True)
 
     # Box plot
     st.subheader("Statistical box plots")
@@ -98,4 +98,4 @@ def sales_ui(filtered_data: pd.DataFrame):
         title="Price interval of Al Goannas per unique trait",
         title_x=0.5
     )
-    st.plotly_chart(fig)
+    st.plotly_chart(fig, use_container_width=True)

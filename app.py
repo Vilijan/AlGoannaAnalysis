@@ -13,6 +13,11 @@ from src.models.ASA import ASA
 from src.models.ASASale import ASASale
 from src.models.ASAOwner import ASAOwner
 
+st.set_page_config(
+    page_title="Asalytic",
+    layout="wide",
+)
+
 
 def load_json(path: str) -> dict:
     with open(path) as json_file:
@@ -28,7 +33,7 @@ def convert_str_color(rgb_color: str):
 
 def prepare_data():
     metadata = load_json(f'db_responses/algoanna_metadata.json')
-    sales_response = load_json(f'db_responses/algoanna_sales.json')
+    sales_response = load_json(f'db_responses/sales.json')
     asas_response = load_json(f'db_responses/asa_collection.json')
     asa_owners_response = load_json(f"db_responses/collection_owners.json")
 
@@ -98,7 +103,8 @@ def prepare_data():
 
 def custom_filters():
     data = st.session_state.data
-
+    data = data.sort_values(by="price", ascending=False).reset_index(drop=True)
+    st.sidebar.image(data.ipfs_image.values[0], caption=f"{data.name.values[0]} {data.price.values[0]:,}A")
     desc_1 = """
       Create interactive plots using custom filters
         - Filter by market type
@@ -265,7 +271,7 @@ def owners_ui():
         yaxis_title="Number of unique owners",
     )
 
-    st.plotly_chart(fig)
+    st.plotly_chart(fig, use_container_width=True)
 
     st.subheader("🐳 Explore 🐳")
     whales_description = """
@@ -283,10 +289,10 @@ def owners_ui():
         st.session_state.owners_data.address == selected_address].reset_index(drop=True)
 
     idx = 0
-
+    no_columns = 6
     while idx < len(curr_whale_df):
-        cols = st.columns(3)
-        for j in range(3):
+        cols = st.columns(no_columns)
+        for j in range(no_columns):
             if idx >= len(curr_whale_df):
                 break
 
@@ -313,7 +319,7 @@ curr_data = st.session_state.filtered_data
 
 if len(curr_data) > 0:
     overall_stats()
-    combined_images_ui(data=curr_data)
-    private_algoannas()
+    combined_images_ui(data=curr_data, number_of_samples=24, images_per_column=8)
+    private_algoannas(number_of_samples=24, images_per_column=8)
     sales_ui(filtered_data=curr_data)
     owners_ui()
